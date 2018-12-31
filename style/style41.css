@@ -1,0 +1,21 @@
+.banner2 h1{
+	font-size: 29px;
+}
+.header h2{
+	font-size: 30px;
+	font-weight: none;
+}
+.form1{
+	left:2%;
+}
+select{
+	width:39px;
+	background-color: #fff;
+}
+label span{
+	top:0px;
+	position: relative;
+}
+.strong{
+	width:230;
+}

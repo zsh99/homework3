@@ -1,0 +1,96 @@
+.banner1{
+	background-color: #202121;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	top:0px;
+	position: absolute;
+}
+.banner1 ul li{
+	float: left;
+	width:13%;
+	left:21%;
+	position: relative;
+	list-style: none;
+	margin-top:-15px;
+
+}
+ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.banner2{
+	background-image: url(../image/lala.png);
+	background-size: 100% 100%;
+	height:415px;
+	margin-top:-22px;
+}
+.banner2 h1{
+	color:#fff;
+	position: relative;
+	font-size: 40px;
+	top:200px;
+	text-align: center;
+
+}
+.header h2{
+	font-size: 35px;
+	color:#1654B2;
+	font-weight: bold;
+	text-align: center;
+}
+.header1 {
+	width: 12%;
+	border:1px solid #999;
+	left:44%;
+	position: absolute;
+	height:30px;
+	margin-top: -8px;
+}
+.header1 h4{
+	top:-6px;
+	position: relative;
+	text-align: center;
+}
+.show{
+	margin-left: 0%;
+	width:100%;
+	position: relative;
+	top:200px;
+}
+.show div{
+	text-align: center;
+	height:350px;
+	
+	
+}
+.intro{
+	position: absolute;
+	left:25%;
+	padding-top: 60px;
+}
+.intro p{
+	line-height:30px;
+}
+.imge{
+	position: relative;
+	left:70px;
+	padding-top:70px;
+}
+.footer{
+	width:100%;
+	top:200px;
+	position: relative;
+}
+.footer1{
+	background-color: #2C333F;
+	height:45px;
+}
+.footer2{
+	background-color: #252B35;
+	height:120px;
+	color:#7B7E86;
+	text-align: center;
+	font-size: 12px;
+}

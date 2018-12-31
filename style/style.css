@@ -1,0 +1,98 @@
+/*导航菜单栏样式设置*/
+#menu { margin: 0;
+		padding: 0;
+		position: fixed;
+		left: 10px;
+		top: 10px;
+		list-style-type: none;
+		z-index: 70;}
+#menu li { float: left; 
+		   margin:  0 10px 0 0;
+	       font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+/*切换到相应位置的样式*/
+#menu .active a { color: #fff; background-color: #333;}
+
+/*项目导航栏样式设定*/
+
+#fp-nav ul li a.active span,  
+.fp-slidesNav ul li a.active span {  
+    background-image: url(../image/back.png);
+     /*这里设置的是活动导航的颜色*/  
+}  
+#fp-nav ul li a span,  
+.fp-slidesNav ul li a span {
+	width:14px;
+	height:14px; 
+	background:#B0C4DE;
+	border:none; 
+    /*这里设置的是非活动导航的颜色*/
+}
+body,html{font-family:'Microsoft YaHei',
+		 'Hiragino Sans GB',
+		 Helvetica,Arial,
+		 'Lucida Grande',
+		 sans-serif;}
+/*每一屏的样式设置*/
+.section { font:"Microsoft Yahei";text-align: center;position: relative;}
+/*标题*/
+.heade{
+	font-weight: bold;
+	color: #1654B2;
+	text-align: center;
+	/*margin:0 auto;*/
+	top:6%;
+	left:42%;
+	position:absolute;
+}
+.headd{
+	text-align: center;
+	width: 12%;
+	border: 1px solid #E7E7E7;
+	margin-top:0%;
+	color: #000;
+	left: 44%;
+	height:30px;
+	position: absolute;
+	line-height: 30px;
+}
+/*Home
+.section1{
+background-image: url(../image/banner1.png);
+background-size: 100% 100%;
+color: #fff;
+margin-top: 50px;
+}*/
+.header{
+	text-align: center;
+	margin:auto 0;
+}
+.header h2{
+	font-size: 50px;
+	font-weight: bolder;
+}
+/*Introduction*/
+/*News*/
+/*Works show*/
+.section4{
+background-image: url(../image/bannner2.png);
+margin-top:50px;
+background-size: cover; 
+}
+/*Join us*/
+.footer{
+	position:absolute;
+	top:74%;
+	width:100%;
+}
+.footer1{
+	background-color: #2C333F;
+	height:40px;
+}
+.footer2{
+	background-color: #252B35;
+	height:125px;
+	color:#7B7E86;
+	text-align: center;
+	font-size: 12px;
+}
