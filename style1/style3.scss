@@ -1,0 +1,59 @@
+@import "head";/*引入头部文件*/
+.banner2{
+	background-image: url(../image/11.png);
+}
+.container{
+	width:100%;
+	position: relative;
+	top:200px;
+}
+.container .row {
+	height:350px;
+	margin-left:0%;
+	padding-left:27%;
+	}
+.intro{
+	position: absolute;
+	padding-top: 60px;
+}
+.intro p{
+	line-height:30px;
+}
+.imge{
+	position: relative;
+	padding-top:30px;
+}
+.imge img{
+		width:80%;
+}
+.footer{
+	width:100%;
+	top:200px;
+	position: relative;
+}
+.footer1{
+	background-color: #2C333F;
+	height:60px;
+}
+.footer2{
+	background-color: #252B35;
+	height:140px;
+	color:#7B7E86;
+	text-align: center;
+	font-size: 12px;
+}
+@media screen and (max-width:768px){
+	.intro{
+		padding-top:0px;
+	}
+	.intro h1{
+		font-size: 25px;
+	}
+	.imge{
+		padding-top:0px;
+		margin-top:-10px;
+	}
+	.imge img{
+		width:50%;
+	}
+}

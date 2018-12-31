@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body, html {
+  font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Helvetica,Arial, 'Lucida Grande', sans-serif; }
+
+ul li a {
+  text-decoration: none; }
+
+.banner2 {
+  background-size: 100% 100%;
+  height: 415px;
+  margin-top: -22px; }
+
+.banner2 h1 {
+  position: relative;
+  font-size: 40px;
+  top: 100px;
+  text-align: center; }
+
+.header h2 {
+  font-size: 35px;
+  color: #1654B2;
+  font-weight: bold;
+  text-align: center; }
+
+.header1 {
+  width: 12%;
+  border: 1px solid #999;
+  left: 44%;
+  position: absolute;
+  height: 30px;
+  margin-top: 2px; }
+
+.header1 h4 {
+  top: -5px;
+  position: relative;
+  text-align: center; }
+
+/*# sourceMappingURL=head.css.map */

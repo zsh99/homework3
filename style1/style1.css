@@ -1,0 +1,356 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft Yahei"; }
+
+/*Home*/
+.section1 {
+  margin-top: 50px;
+  color: white;
+  position: relative; }
+
+.section1 .header {
+  /*内容居中显示*/
+  left: 37%;
+  top: 24%;
+  position: absolute;
+  text-align: center; }
+
+.section1 .header h1 {
+  font-size: 50px; }
+
+/*中心简介*/
+.section2 {
+  margin-top: 110px; }
+
+.heade {
+  font-weight: bold;
+  color: #1654B2;
+  text-align: center;
+  top: 6%;
+  left: 42%; }
+
+.headed {
+  margin-top: 20px;
+  position: relative; }
+
+.headd {
+  text-align: center;
+  width: 12%;
+  border: 1px solid #E7E7E7;
+  margin-top: 0%;
+  color: #000;
+  left: 44%;
+  height: 30px;
+  line-height: 30px;
+  position: absolute; }
+
+/*中心简介*/
+.intro {
+  position: relative;
+  top: 150px; }
+
+.intro-center {
+  margin-top: 0; }
+
+.intro-center h3 {
+  color: #5C6F93;
+  top: 6%;
+  position: absolute;
+  left: 55%; }
+
+.intro-hr1 {
+  width: 33%;
+  position: absolute;
+  left: 55%;
+  top: 20%; }
+
+.intro-center h4 {
+  color: #888888;
+  top: 32%;
+  position: absolute;
+  left: 55%; }
+
+.intro-hr2 {
+  width: 33%;
+  position: absolute;
+  left: 55%;
+  top: 40%; }
+
+/*师资力量*/
+.section3 {
+  margin-top: 50px;
+  position: relative;
+  top: 200px; }
+
+.sec31-center ul li img {
+  width: 80%; }
+
+.sec31-center h4 {
+  position: relative;
+  top: 140px;
+  left: 5%; }
+
+.se3-center img {
+  width: 20%;
+  left: -180px;
+  position: relative;
+  top: 335px; }
+
+.sec31-center ul {
+  list-style: none;
+  float: left;
+  margin-top: 20%;
+  margin-left: 4%; }
+
+.sec31-center span {
+  left: 8%;
+  top: 101%;
+  position: absolute; }
+
+.sec32-center span {
+  top: 135%;
+  position: absolute;
+  left: 8%; }
+
+/*教育成果*/
+.section4 {
+  margin-top: 50px;
+  top: 367px;
+  padding-top: 10px;
+  position: relative; }
+
+.sec4 {
+  position: relative;
+  top: 250px;
+  padding-left: 8%; }
+
+.center1 {
+  margin-top: 6%; }
+
+.center2 {
+  margin-left: 6%; }
+
+.center3 {
+  color: #fff;
+  margin-left: 2%; }
+
+.center3 p {
+  line-height: 30px; }
+
+/*报名*/
+.section5 {
+  position: relative;
+  margin-top: 50px;
+  top: 680px; }
+
+.sec5-center1-img {
+  position: absolute;
+  left: 15%;
+  top: 18%; }
+
+.sec5-center2-img {
+  position: absolute;
+  left: 15%;
+  top: 18%; }
+
+.sign {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  top: 0px;
+  left: 42px;
+  font-size: 16px; }
+
+/*页尾*/
+.footer {
+  width: 100%;
+  top: 175px;
+  position: relative; }
+
+.footer1 {
+  background-color: #2C333F;
+  height: 60px; }
+
+.footer2 {
+  background-color: #252B35;
+  height: 140px;
+  color: #7B7E86;
+  text-align: center;
+  font-size: 12px; }
+
+.hr1 {
+  width: 44%;
+  left: 0%;
+  position: absolute; }
+
+.hr2 {
+  width: 44%;
+  left: 56%;
+  position: absolute; }
+
+@media screen and (max-width: 768px) {
+  /*Home*/
+  .section1 .header {
+    /*内容居中显示*/
+    left: 32%;
+    top: 24%;
+    position: absolute;
+    text-align: center; }
+
+  .section1 .header div img {
+    width: 30%;
+    position: absolute;
+    left: 28%;
+    top: -20%;
+    margin-top: -10%; }
+
+  .section1 .header h1 {
+    font-size: 30px; }
+
+  .section1 .header h3 {
+    font-size: 18px; }
+
+  /*中心简介*/
+  .intro-center {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .intro-center img {
+    width: 50%; }
+
+  .intro-center h3 {
+    color: #5C6F93;
+    top: 6%;
+    position: absolute;
+    left: 45%; }
+
+  .intro-hr1 {
+    width: 33%;
+    position: absolute;
+    left: 45%;
+    top: 20%; }
+
+  .intro-center h4 {
+    color: #888888;
+    top: 32%;
+    position: absolute;
+    left: 45%; }
+
+  .intro-hr2 {
+    width: 33%;
+    position: absolute;
+    left: 45%;
+    top: 40%; }
+
+  /*师资力量*/
+  .se3-center img {
+    width: 50%; }
+
+  .sec31-center h4 {
+    position: relative;
+    top: 160px;
+    left: -20px;
+    font-size: 12px; }
+
+  .sec31-center ul {
+    list-style: none;
+    float: left;
+    margin-top: 180px;
+    margin-left: 4%; }
+
+  .sec31-center span {
+    top: 95%; }
+
+  .sec32-center h4 {
+    font-size: 12px;
+    top: 165px; }
+
+  .sec31-center ul {
+    margin-left: 15%; }
+
+  .sec31-center ul li img {
+    width: 40%; }
+
+  .se3-center img {
+    left: 48%;
+    width: 25%;
+    position: relative;
+    top: 160px; }
+
+  /*教育成果*/
+  .sec4 {
+    margin-top: -20%; }
+
+  .center2 {
+    margin-left: 5%; }
+
+  .center1 img {
+    width: 120%; }
+
+  .center2 img {
+    width: 90%; }
+
+  .center3 {
+    margin-left: 0;
+    margin-top: -20px; }
+
+  .center3 h4 {
+    font-size: 14px; }
+
+  .center3 p {
+    font-size: 12px;
+    line-height: 20px; }
+
+  .sec5-center1 {
+    margin-left: 125px; }
+
+  .sec5-center2 {
+    margin-left: 125px; }
+
+  .sec5-center1, .sec5-center2 {
+    display: inline-block; }
+
+  /*报名*/
+  .sec5-center1-img {
+    position: absolute;
+    left: 28%;
+    top: 18%; }
+
+  .sec5-center2-img {
+    position: absolute;
+    left: 28%;
+    top: 18%; }
+
+  .sign {
+    font-size: 14px;
+    top: 0px;
+    left: 42px;
+    width: 50px;
+    display: inline-block; } }
+@media screen and (max-width: 500px) {
+  .sec5-center1-img {
+    position: absolute;
+    left: 43%;
+    top: 18%; }
+
+  .sec5-center2-img {
+    position: absolute;
+    left: 43%;
+    top: 18%; }
+
+  .sec5-center2 {
+    margin-top: 50px; }
+
+  .center1 img {
+    width: 250%; }
+
+  .center2 img {
+    width: 120%; }
+
+  .center3 p {
+    font-size: 12px;
+    line-height: 16px; } }
+
+/*# sourceMappingURL=style1.css.map */

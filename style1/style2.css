@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body, html {
+  font-family: 'Microsoft YaHei', 'Hiragino Sans GB', Helvetica,Arial, 'Lucida Grande', sans-serif; }
+
+ul li a {
+  text-decoration: none; }
+
+.banner2 {
+  background-size: 100% 100%;
+  height: 415px;
+  margin-top: -22px; }
+
+.banner2 h1 {
+  position: relative;
+  font-size: 40px;
+  top: 100px;
+  text-align: center; }
+
+.header h2 {
+  font-size: 35px;
+  color: #1654B2;
+  font-weight: bold;
+  text-align: center; }
+
+.header1 {
+  width: 12%;
+  border: 1px solid #999;
+  left: 44%;
+  position: absolute;
+  height: 30px;
+  margin-top: 2px; }
+
+.header1 h4 {
+  top: -5px;
+  position: relative;
+  text-align: center; }
+
+/*引入头部文件*/
+.banner2 {
+  background-image: url(../image/lala2.png); }
+
+.intro-con1 {
+  position: relative;
+  top: 200px;
+  margin-left: 20%; }
+
+.con {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  word-break: break-all; }
+
+.notice {
+  width: 67%;
+  height: 298px;
+  margin: 10px;
+  border-top: solid 1px #919EB4;
+  border-bottom: solid 2px #919EB4;
+  overflow: hidden; }
+
+.notice-tit {
+  height: 27px;
+  position: relative; }
+
+.notice-tit ul {
+  position: absolute;
+  left: 85%;
+  top: 50px; }
+
+.notice-tit li {
+  width: 58px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 1px; }
+
+.notice-tit li.select {
+  padding: 0;
+  font-weight: bolder; }
+
+.notice-tit li.select a:link, .notice li.select a:visited {
+  color: #094AAE;
+  font-size: 18px; }
+
+.notice li a:link, .notice li a:visited {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000; }
+
+.notice li a:hover {
+  color: #094AAE;
+  font-size: 18px; }
+
+/*变化的字体颜色*/
+.notice-con .mod {
+  margin: 10px 6px; }
+
+.notice-con .mod ul li {
+  float: left;
+  list-style: none; }
+
+.notice-con .mod ul li.right-intro {
+  width: 150px;
+  overflow: hidden;
+  position: absolute;
+  left: 28%; }
+
+.border-left {
+  width: 50px;
+  height: 500px;
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  border-left: 1px solid #EDEDED;
+  position: absolute;
+  margin-left: -9%;
+  margin-top: 22px; }
+
+.border-right {
+  width: 50px;
+  height: 500px;
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+  position: absolute;
+  left: 74%;
+  margin-top: 22px; }
+
+.form-button {
+  width: 136px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #286CC0;
+  border: 1px solid #2766AF;
+  color: #fff;
+  font-size: 19px;
+  position: relative;
+  left: 43%;
+  top: 280px; }
+
+.nav-tabs {
+  border-bottom: none; }
+
+.footer {
+  width: 100%;
+  top: 400px;
+  position: relative;
+  background-image: url(../image/footer.png); }
+
+.footer1 {
+  background-color: #2C333F;
+  height: 60px; }
+
+.footer2 {
+  height: 140px;
+  color: #7B7E86;
+  text-align: center;
+  font-size: 12px; }
+
+@media (min-width: 768px) {
+  .banner {
+    height: 350px; } }
+
+/*# sourceMappingURL=style2.css.map */
